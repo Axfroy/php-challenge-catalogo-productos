@@ -1,0 +1,6 @@
+.git
+.github
+.env
+api/vendor
+api/.phpstan.cache
+api/.php-cs-fixer.cache
