@@ -15,6 +15,7 @@ RUN composer install --no-interaction --no-progress --prefer-dist
 
 COPY api/src ./src
 COPY api/public/index.php ./public/index.php
+COPY api/phpstan.neon.dist api/.php-cs-fixer.dist.php ./
 COPY frontend/ ./public/
 COPY docker/php/apache-vhost.conf /etc/apache2/sites-available/000-default.conf
 
