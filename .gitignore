@@ -1,0 +1,7 @@
+/api/vendor/
+/api/.phpstan.cache/
+/api/.php-cs-fixer.cache
+.env
+/.idea/
+/.vscode/
+.DS_Store
